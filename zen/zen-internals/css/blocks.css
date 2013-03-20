@@ -1,0 +1,189 @@
+/**
+ * @file
+ * Block Styling
+ */
+
+
+.block { /* Block wrapper */
+  margin-bottom: 1.5em;
+}
+
+.block.first { /* The first block in the region */
+}
+
+.block.last { /* The last block in the region */
+}
+
+.block.odd { /* Zebra striping for each block in the region */
+}
+
+.block.even { /* Zebra striping for each block in the region */
+}
+
+h2.block-title { /* Block title */
+}
+
+#block-superfish-1 h2.block-title { /* Block title */
+    display : none;
+}
+
+#block-aggregator-category-1 { /* Block for the latest news items in the first category */
+}
+
+#block-aggregator-feed-1 { /* Block for the latest news items in the first feed */
+}
+
+#block-block-1 { /* First block created with "Add block" link */
+}
+
+#block-blog-recent { /* "Recent blog posts" block */
+}
+
+#block-book-navigation { /* "Book navigation" block for the current book's table of contents */
+}
+
+#block-comment-recent { /* "Recent comments" block */
+}
+
+#block-forum-active { /* "Active forum topics" block */
+}
+
+#block-forum-new { /* "New forum topics" block */
+}
+
+#block-locale-language { /* Language switcher block */
+}
+
+#block-menu-menu-NAME { /* Custom menu block */
+}
+
+#block-node-recent { /* "Recent content" block */
+}
+
+#block-node-syndicate { /* "Syndicate" block for primary RSS feed; see also page.css's .feed-icon */
+}
+
+#block-poll-recent { /* "Most recent poll" block */
+}
+
+#block-profile-author-information { /* "Author information" block for the profile of the page's author */
+}
+
+#block-search-form { /* "Search form" block */
+}
+
+#block-shortcut-shortcuts { /* "Shortcuts" block */
+}
+
+#block-statistics-popular { /* "Popular content" block */
+}
+
+#block-system-main-menu { /* "Main menu" block */
+}
+
+#block-system-management { /* "Management" block for Drupal management menu */
+}
+
+#block-system-navigation { /* "Navigation" block for Drupal navigation menu */
+}
+
+#block-system-user-menu { /* "User menu" block for Drupal user menu */
+}
+
+#block-system-help { /* "System help" block */
+}
+
+#block-system-main { /* "Main page content" block */
+}
+
+#block-system-powered-by { /* "Powered by Drupal" block */
+}
+
+#block-user-login { /* "User login form" block */
+}
+
+#block-user-new { /* "Who's new" block for a list of the newest users */
+}
+
+#block-user-online { /* "Who's online" block for a list of the online users */
+}
+
+
+/* Custom changes */
+
+#block-superfish-1 {
+    /*background: none repeat scroll 0 0 #333333;
+    height: 34px;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF; */
+}
+
+UL#superfish-1 LI{
+    background: none repeat scroll 0 0 transparent;  
+    text-transform: uppercase;
+}
+
+UL#superfish-1 LI:hover{
+    background: none repeat scroll 0 0 #4F4F4F;
+}
+
+UL#superfish-1 LI a{
+    text-decoration: none;
+    border: medium none transparent;
+}
+
+UL#superfish-1 LI a.active{
+    background: none repeat scroll 0 0 #4C5C69  !important;
+}
+
+.sf-menu.sf-style-default a, .sf-menu.sf-style-default a:visited {
+    color: #FFFFFF !important;
+}
+.sf-menu.sf-style-default li:hover, .sf-menu.sf-style-default li.sfHover, .sf-menu.sf-style-default a:focus, .sf-menu.sf-style-default a:hover, .sf-menu.sf-style-default a:active{
+    color: #FFFFFF; 
+    background: none repeat scroll 0 0 transparent;
+}
+
+#block-node-recent, #block-quicktabs-quicktab, .region-sidebar-first div, #block-views-tags-list-block div{
+    background-color: #CCCCCC;
+    border-radius: 5px 5px 5px 5px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#block-node-recent h2, .region-sidebar-first div h2, #block-quicktabs-quicktab h2, {
+    text-align : center;
+    border-bottom: 1px solid;
+}
+
+ .region-sidebar-second .more-link{
+     margin-bottom: 6px;
+     margin-right: 10px;
+     margin-top: -15px;
+     text-align: right;
+ }
+
+.region-footer div h2{
+    color: #FFFFFF;  
+    border-bottom: 1px solid #FFFFFF; 
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+#block-views-comments-recent-block {
+    width : 20%;
+}
+
+tr.even, tr.odd {
+    background-color: transparent !important;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+ul.quicktabs-tabs.quicktabs-style-zen{
+    background-color: #666666 !important;
+    padding: 0 3px 7px !important;
+}
+
+ul.quicktabs-tabs.quicktabs-style-zen li.active a{
+    color: red !important;
+}
