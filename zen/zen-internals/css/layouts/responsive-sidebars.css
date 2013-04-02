@@ -20,7 +20,12 @@
     
     margin-left: auto;
     margin-right: auto;
-    max-width: 62%;
+    max-width: 72%; 
+    height: 450px !important;
+    border-bottom: 40px solid black !important;
+    border-left: 40px solid black !important;
+    border-radius: 0 0 15px 15px !important;
+    border-right: 40px solid black !important;
 }
 
 /*
